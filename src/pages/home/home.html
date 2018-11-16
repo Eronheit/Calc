@@ -1,0 +1,34 @@
+<ion-header style="text-align: center;">
+  <ion-navbar color="navbar">
+    <ion-title>
+      <b>Calcular</b>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <br>
+  <ion-list inset>
+
+    <ion-item>
+      <ion-input placeholder="Quantidade de Placas" type="number" name="placa" [(ngModel)]="evento.placa" pattern="[0-9]*"></ion-input>
+    </ion-item>
+
+  </ion-list>
+
+  <div padding>
+    <button ion-button color="navbar" (click)="Cadastrar(evento)"block>Calcular</button>
+  </div>
+<br>
+<ion-list>
+  <ion-item> 
+      <h1 style="color:#006699;"><b>Placas Internas: {{ evento.placa }}</b></h1>
+      <h2><b>Perimêtro Interno: </b>{{ evento.perimetroI }} m</h2>
+      <h2><b>Perimêtro Externo: </b>{{ evento.perimetroE }} m</h2>
+      <h2><b>Diâmetro Interno: </b> {{ evento.diametroI }} m</h2>
+      <h2><b>Diâmetro Externo: </b> {{ evento.diametroE }} m</h2>
+      <h2><b>Volume - Litros: </b> {{ evento.volumeI }} l</h2>
+      <h2><b>Espaçamento: </b> {{ evento.espE }} cm</h2>
+  </ion-item>
+</ion-list>
+</ion-content> 

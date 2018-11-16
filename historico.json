@@ -1,0 +1,44 @@
+{
+  "historico": [
+    {
+      "placa": "14",
+      "perimetroI": "30.52",
+      "perimetroE": "30.83",
+      "diametroI": "9.72",
+      "diametroE": "9.82",
+      "volumeI": "81577.82",
+      "espE": "2.09",
+      "id": 1
+    },
+    {
+      "placa": "12",
+      "perimetroI": "26.16",
+      "perimetroE": "26.47",
+      "diametroI": "8.33",
+      "diametroE": "8.43",
+      "volumeI": "59934.73",
+      "espE": "2.42",
+      "id": 2
+    },
+    {
+      "placa": "7",
+      "perimetroI": "15.26",
+      "perimetroE": "15.57",
+      "diametroI": "4.86",
+      "diametroE": "4.96",
+      "volumeI": "20394.46",
+      "espE": "3.92",
+      "id": 3
+    },
+    {
+      "placa": "8",
+      "perimetroI": "17.44",
+      "perimetroE": "17.75",
+      "diametroI": "5.55",
+      "diametroE": "5.65",
+      "volumeI": "26637.66",
+      "espE": "3.49",
+      "id": 4
+    }
+  ]
+}

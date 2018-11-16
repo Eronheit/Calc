@@ -1,0 +1,21 @@
+<ion-header style="text-align: center;">
+  <ion-navbar color="navbar">
+    <ion-title>
+      <b>Histórico</b>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <ion-item *ngFor="let d of dados"> 
+      <h1 style="color:#006699;"><b>Placas Internas: {{ d.placa }}</b></h1>
+      <h2><b>Perimêtro Interno: </b>{{ d.perimetroI }} </h2>
+      <h2><b>Perimêtro Externo: </b>{{ d.perimetroE }} </h2>
+      <h2><b>Diâmetro Interno: </b> {{ d.diametroI }} </h2>
+      <h2><b>Diâmetro Externo: </b> {{ d.diametroE }} </h2>
+      <h2><b>Volume - Litros: </b> {{ d.volumeI }} L</h2>
+      <h2><b>Espaçamento: </b> {{ d.espE }} </h2>
+    </ion-item>
+  </ion-list>
+</ion-content>
